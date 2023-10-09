@@ -2,4 +2,6 @@ fastqc
 trimmomatic
 bwa
 samtools
+varscan
+bedtools
 end
