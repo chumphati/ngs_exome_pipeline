@@ -1,0 +1,19 @@
+    TP RNA-seq Analyzer.
+
+    [HOMEPAGE & DOCUMENTATION]: https://github.com/chumphati/ngs_ue_ami2b
+    [VERSION]: 1.0.0
+    [LICENSE]: Apache License, Version 2.0
+    [RUN GDFF-ANNOT]: bash analyser.sh <options> [--download_data | --import_data]
+
+    [OPTIONS & PARAMETER]:
+
+    ##MAIN ARGUMENTS
+    --download_data                                   <mandatory> The data are automatically downloaded when the pipeline is launched.
+    --import_data [ABSOLUTE/PATH/TO/DATA/FOLDER]      <mandatory> Give a path to a folder containing all the fastq input files.
+
+    ##OPTIONNAL
+    --quality_control                                 <default = none> Enables fastqc to be run on raw or trimmed fastqs.
+
+    ##OTHER
+    --help                                            Display this message.
+

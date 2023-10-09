@@ -1,0 +1,5 @@
+fastqc
+trimmomatic
+bwa
+samtools
+end
